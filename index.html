@@ -4,17 +4,98 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>i-Sahabat</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f5f7fa;
+      color: #222;
+    }
+
+    .app {
+      max-width: 430px;
+      margin: auto;
+      min-height: 100vh;
+      background: white;
+    }
+
+    .header {
+      background: #123c69;
+      color: white;
+      padding: 25px 20px;
+      border-radius: 0 0 25px 25px;
+    }
+
+    .header h1 {
+      margin: 0;
+      font-size: 28px;
+    }
+
+    .header p {
+      margin: 8px 0 0;
+      opacity: 0.9;
+    }
+
+    .content {
+      padding: 20px;
+    }
+
+    .card {
+      background: white;
+      padding: 20px;
+      margin-bottom: 15px;
+      border-radius: 18px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    }
+
+    .card h2 {
+      margin-top: 0;
+      color: #123c69;
+    }
+
+    .button {
+      display: block;
+      width: 100%;
+      padding: 14px;
+      border: none;
+      border-radius: 12px;
+      background: #123c69;
+      color: white;
+      font-size: 16px;
+      margin-top: 12px;
+    }
+  </style>
 </head>
 
 <body>
 
-  <h1>i-Sahabat</h1>
+  <div class="app">
 
-  <p>Bank Islam Malaysia Berhad</p>
+    <div class="header">
+      <h1>i-Sahabat</h1>
+      <p>Islamic Banking Made Easier</p>
+    </div>
 
-  <h2>Islamic Products</h2>
+    <div class="content">
 
-  <p>Explore Islamic banking products and Product Disclosure Sheets.</p>
+      <div class="card">
+        <h2>Bank Islam Malaysia Berhad</h2>
+        <p>Welcome to i-Sahabat.</p>
+      </div>
+
+      <div class="card">
+        <h2>Islamic Products</h2>
+        <p>Explore Islamic banking products and their Product Disclosure Sheets.</p>
+
+        <button class="button">
+          View Islamic Products
+        </button>
+      </div>
+
+    </div>
+
+  </div>
 
 </body>
 </html>
